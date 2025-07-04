@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: linear-gradient( 190deg, #FFFFFF, #EBDCFF);
+}
+
+.banner_container{
+    background-image:url(images/hero-bg.png);
+    margin: 100px;
+    padding: 20px;
+    border: 1px solid rgba(198, 173, 216, 0.511);
+    box-shadow: 3px 3px 10px rgb(187, 187, 189);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+    color: rgb(249, 2, 212);
+}
+
+.btn{
+    color: #FFFFFF;
+    background-color: rgb(157, 4, 245);
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color:  rgb(116, 4, 245);
+    font-weight: bold;
+}
+
+#btn_1{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid rgb(157, 4, 245);
+    border-radius: 20px;
+}
+
+#btn_1:hover{
+    font-weight: bold;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h3{
+    color:rgb(245, 4, 213) ;
+}
+
+ .service_container{
+    margin:40px;
+} 
+
+.service_box{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.service_card{
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+    border-radius: 20px;;
+}
+
+.story_container{
+    margin: 100px 40px;
+}
+
+.story_box{
+    background-color: #FFFFFF;
+    padding: 48px;
+    margin: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.country_card{
+    margin: 100px;
+}
+.country_box{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+.country_box h3{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px 35px; 
+    border-radius: 10px;
+}
+
+.btn_2{
+    text-align: center;
+}
+
+.reviews_container{
+    margin: 100px;
+}
+
+.reviews_box{
+    background-color: #FFFFFF;
+    padding: 20px 24px;
+    border-radius: 10px;
+    text-align-last: center;
+    margin: 60px 0px;
+}
+ 
+._text p{
+    margin-left: 450px; 
+}  
+._text::first-line{
+    font-weight: bolder;
+}
+
+
+.box_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.ftr_img img{
+    display: inline-block;
+    width: 30px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+
