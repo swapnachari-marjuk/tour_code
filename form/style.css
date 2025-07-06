@@ -1,0 +1,12 @@
+
+.form_div{
+    margin-bottom: 10px;
+}
+
+input{
+    width: 150px;
+}
+
+input:hover{
+    border: 2px solid blueviolet;
+}
